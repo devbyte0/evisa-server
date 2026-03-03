@@ -38,7 +38,7 @@ app.use(
 // CORS Configuration (FIXED)
 // =============================
 const allowedOrigins = [
-  'http://localhost:5173',
+  'https://evisa-fawn.vercel.app',
   process.env.FRONTEND_URL
 ].filter(Boolean);
 
