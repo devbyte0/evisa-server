@@ -38,7 +38,7 @@ app.use(
 // CORS Configuration (FIXED)
 // =============================
 const allowedOrigins = [
-  'https://evisa-fawn.vercel.app',
+  'https://evisa-gov-md-check-my-visa.vercel.app/',
   process.env.FRONTEND_URL
 ].filter(Boolean);
 
